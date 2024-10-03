@@ -11,7 +11,7 @@ function createTable() {
 			for(let j=0;j<columns;j++)
 				{
 					var newCell = newRow.insertCell(j);
-					newCell.textContent = "Row-"+i+" "+"Column-"+" "+j;
+					newCell.textContent = "Row-"+i+" "+"Column-"+j;
 				}
 		}
 	
